@@ -20,7 +20,6 @@ if (i == 91)
 break;
 }
 }
-putchar(36);
 putchar(10);
 return (0);
 }
