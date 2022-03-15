@@ -13,6 +13,10 @@ if (n >= 98)
 int i;
 for (i = n; i > 97; i--)
 {
+if (i == 98)
+{
+printf("%d", i);
+}
 printf("%d, ", i);
 }
 printf("\n");
@@ -22,6 +26,10 @@ else
 int j;
 for (j = n; j < 99; j++)
 {
+if (j == 98)
+{
+printf("%d", j);
+}
 printf("%d, ", j);
 }
 printf("\n");
