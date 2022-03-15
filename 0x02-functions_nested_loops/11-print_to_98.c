@@ -17,7 +17,10 @@ if (i == 98)
 {
 printf("%d", i);
 }
+else
+{
 printf("%d, ", i);
+}
 }
 printf("\n");
 }
@@ -30,7 +33,10 @@ if (j == 98)
 {
 printf("%d", j);
 }
+else
+{
 printf("%d, ", j);
+}
 }
 printf("\n");
 }
