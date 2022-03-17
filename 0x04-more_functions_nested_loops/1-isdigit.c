@@ -2,7 +2,7 @@
 /**
  * _isdigit - is a funciton
  * @c: is a variable input
- * Description: checks if c is upper case letter
+ * Description: checks if c is a digit
  * Return: integer value of 0 or 1
  */
 int _isdigit(int c)
