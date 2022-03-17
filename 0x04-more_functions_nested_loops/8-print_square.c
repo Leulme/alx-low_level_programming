@@ -22,6 +22,6 @@ void print_square(int size)
 	}
 	else
 	{
-		return;
+		_putchar(10);
 	}
 }
