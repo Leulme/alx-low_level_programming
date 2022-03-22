@@ -8,7 +8,7 @@
  */
 void print_rev(char *s)
 {
-	char reversedstr[200];
+	char reversedstr[500];
 	char *reversed = reversedstr;
 	int countchar;
 
