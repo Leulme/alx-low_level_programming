@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include <stdlib.h>
+# include <string.h>
 # include "main.h"
 /**
  * _strlen - is a function
@@ -10,8 +10,8 @@
 
 int _strlen(char *s)
 {
-    int x;
+	int x;
 
-    x = sizeof(*s) / 8 + 16;
+	x = strlen(s);
 	return (x);
 }
