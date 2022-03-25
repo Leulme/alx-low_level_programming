@@ -31,10 +31,6 @@ char *leet(char *str)
 		{
 			str[i] = replace[z] + '0';
 		}
-		else
-		{
-			continue;
-		}
 	}
 	return (str);
 
