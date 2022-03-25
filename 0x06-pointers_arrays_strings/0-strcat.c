@@ -9,14 +9,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	size_t des_len;
-	size_t i;
 
-	des_len = strlen(dest);
-	for (i = 0; *src != '\0'; i++)
-	{
-		dest[des_len + i] = src[i];
-	}
-
+	strcat(dest, src);
 	return (dest);
 }
