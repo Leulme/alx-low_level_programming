@@ -32,22 +32,21 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	str = malloc(sizeof(char) * l + 1);
 	if (str == NULL)
-OAOAOA		return (NULL);
+		return (NULL);
 
 	k = 0;
-OAOAOA	while (j < l)
-OAOAOA	{
+	while (j < l)
+	{
 		if (j <= i)
 			str[j] = s1[j];
 
-OAOAOA		if (j >= i)
+		if (j >= i)
 		{
 			str[j] = s2[k];
-OAOAOA			k++;
+			k++;
 		}
 		j++;
 	}
 	str[j] = '\0';
 	return (str);
 }
-© 2022 GitHub, Inc.
